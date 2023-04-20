@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+	--fontregular: "Inter", sans-serif;
+	--fontmono: "Roboto Mono", monospace;
+
+	--bg: #dddddd;
+	--fg: #5c5c5c;
+
+	--red: #ce7297;
+	--yellow: #c89e61;
+	--green: #88ab6e;
+	--blue: #7f98c6;
+	--magenta: #9f78aa;
+	--cyan: #7baa9e;
+}
+
+body {
+	background-color: var(--bg);
+	font-family: var(--fontregular);
+	margin:40px auto;
+	max-width: 650px;
+	line-height: 1.6;
+	font-size: 18px;
+	color: var(--fg);
+	padding: 0 10px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h1, h2, h3 {
+	line-height: 1.2;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 10px;
+	margin: 15px 0 15px 0;
+}
+
+code, pre {
+	font-family: var(--fontmono);
+}
+
+pre {
+	padding: 10px;
+	background-color: var(--bg);
+	filter: brightness(92.5%);
+	border-radius: 13px;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+}
+
+.unselect {
+	user-select: none;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #7f98c6;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.nav {
+	padding: 0 15px 0 0;
+}
+
+::selection {
+	color: #5c5c5c;
+	background: #b6b6b6;
+}
+
+::-moz-selection {
+	color: #5c5c5c;
+	background: #b6b6b6;
+}
+
+.red-dot {
+	color: var(--red);
+}
+
+.yellow-dot {
+	color: var(--yellow);
+}
+
+.green-dot {
+	color: var(--green);
+}
+
+.blue-dot {
+	color: var(--blue);
+}
+
+.magenta-dot {
+	color: var(--magenta);
+}
+
+.cyan-dot {
+	color: var(--cyan);
+}
+
+.note-date {
+	margin-top: -15px;
+	color: var(--bg);
+	filter: brightness(70%);
+}
